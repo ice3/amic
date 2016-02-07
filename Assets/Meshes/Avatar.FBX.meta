@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 47d299112a56256439e4581a84f54559
+timeCreated: 1448579129
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone_zero
+    100004: Cylinder001
+    100006: Hair_1
+    100008: Hair_2
+    100010: Head
+    100012: L_arm
+    100014: L_forearm
+    100016: L_Foreleg
+    100018: L_Leg
+    100020: Narval_spine_1
+    100022: Narval_spine_3
+    100024: Narval_tail
+    100026: Naval_spine_2
+    100028: R_arm
+    100030: R_forearm
+    100032: R_Foreleg
+    100034: R_Leg
+    100036: Spine_1
+    100038: Spine_2
+    400000: //RootNode
+    400002: Bone_zero
+    400004: Cylinder001
+    400006: Hair_1
+    400008: Hair_2
+    400010: Head
+    400012: L_arm
+    400014: L_forearm
+    400016: L_Foreleg
+    400018: L_Leg
+    400020: Narval_spine_1
+    400022: Narval_spine_3
+    400024: Narval_tail
+    400026: Naval_spine_2
+    400028: R_arm
+    400030: R_forearm
+    400032: R_Foreleg
+    400034: R_Leg
+    400036: Spine_1
+    400038: Spine_2
+    4300000: Cylinder001
+    7400000: Forward
+    7400002: Side
+    9500000: //RootNode
+    13700000: Cylinder001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Forward
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Narval_spine_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/L_Leg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/L_Leg/L_Foreleg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/R_Leg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/R_Leg/R_Foreleg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head/Hair_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head/Hair_1/Hair_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/L_arm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/L_arm/L_forearm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/R_arm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/R_arm/R_forearm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Narval_spine_3
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Narval_spine_3/Narval_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Side
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Narval_spine_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/L_Leg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/L_Leg/L_Foreleg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/R_Leg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/R_Leg/R_Foreleg
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head/Hair_1
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/Head/Hair_1/Hair_2
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/L_arm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/L_arm/L_forearm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/R_arm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Bone_zero/Spine_1/Spine_2/R_arm/R_forearm
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Narval_spine_3
+        weight: 1
+      - path: Narval_spine_1/Naval_spine_2/Narval_spine_3/Narval_tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
