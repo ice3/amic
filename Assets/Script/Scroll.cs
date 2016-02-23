@@ -21,6 +21,7 @@ public class Scroll : MonoBehaviour {
         speed = script.scrollSpeed;
         int noScreen = GetComponent<ComputerSelect>().computerNumber;
 
+		Debug.Log (noScreen);
         switch (noScreen) {
 			case 1:
 				if (script.screen1) {
@@ -87,6 +88,7 @@ public class Scroll : MonoBehaviour {
 
     void WallInvok()
     {
+		Debug.Log (GetComponent<ComputerSelect> ().computerNumber);
         GameObject clone;
         clone = (GameObject)Instantiate(
 			waveObject,

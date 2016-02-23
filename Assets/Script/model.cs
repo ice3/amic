@@ -132,12 +132,6 @@ public class model : NetworkBehaviour {
         }
     }
 
-	public void triggerDeath () {
-		Debug.Log ("Send Death");
-		BroadcastMessage ("Death", null);
-	}
-
-	[RPC]
     public void Death()
     {
 		Debug.Log ("Death");

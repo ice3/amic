@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B0E343EC-B409-E838-192C-68439733D76E}</ProjectGuid>
+    <ProjectGuid>{B30D2168-5CAB-3CBD-C43A-9DE46DFAABC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,6 +53,7 @@
      <Compile Include="Assets\Script\ComputerSelect.cs" />
      <Compile Include="Assets\Script\Moove.cs" />
      <Compile Include="Assets\Script\Scroll.cs" />
+     <Compile Include="Assets\Script\TriggerDeath.cs" />
      <Compile Include="Assets\Script\model.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
