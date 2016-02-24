@@ -52,6 +52,7 @@
      <Compile Include="Assets\Script\Chrono.cs" />
      <Compile Include="Assets\Script\ComputerSelect.cs" />
      <Compile Include="Assets\Script\Moove.cs" />
+     <Compile Include="Assets\Script\NetworkPlayer.cs" />
      <Compile Include="Assets\Script\Scroll.cs" />
      <Compile Include="Assets\Script\TriggerDeath.cs" />
      <Compile Include="Assets\Script\model.cs" />

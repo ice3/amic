@@ -83,6 +83,7 @@
 'Assets/Script/Chrono.cs'
 'Assets/Script/ComputerSelect.cs'
 'Assets/Script/Moove.cs'
+'Assets/Script/NetworkPlayer.cs'
 'Assets/Script/Scroll.cs'
 'Assets/Script/TriggerDeath.cs'
 'Assets/Script/model.cs'

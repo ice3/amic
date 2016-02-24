@@ -2,10 +2,9 @@
 -target:library
 -nowarn:0169
 -out:'Temp/Assembly-CSharp.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/MacStandaloneSupport/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
 -define:UNITY_5_3_2
 -define:UNITY_5_3
 -define:UNITY_5
@@ -69,13 +68,6 @@
 -define:ENABLE_CLUSTERINPUT
 -define:ENABLE_WEBSOCKET_HOST
 -define:ENABLE_MONO
--define:ENABLE_PROFILER
--define:DEBUG
--define:TRACE
--define:UNITY_ASSERTIONS
--define:UNITY_EDITOR
--define:UNITY_EDITOR_64
--define:UNITY_EDITOR_OSX
 'Assets/CS_DolphinBahavior.cs'
 'Assets/CS_ItemsSpawn.cs'
 'Assets/CS_StarFishBehavior.cs'
@@ -83,6 +75,7 @@
 'Assets/Script/Chrono.cs'
 'Assets/Script/ComputerSelect.cs'
 'Assets/Script/Moove.cs'
+'Assets/Script/NetworkPlayer.cs'
 'Assets/Script/Scroll.cs'
 'Assets/Script/TriggerDeath.cs'
 'Assets/Script/model.cs'

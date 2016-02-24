@@ -6,7 +6,7 @@ public class Capteur : NetworkBehaviour {
 
     public GameObject model;
     public GameObject computerNumber;
-	public GameObject death;
+	public GameObject networkPlayer;
 
 	// Use this for initialization
 	void Start () {
@@ -24,17 +24,8 @@ public class Capteur : NetworkBehaviour {
 		int playerScreen = computerNumber.GetComponent<Moove> ().numScreen;
         if(coll.gameObject.name == ("pf_Wave(Clone)") &&
 				thisScreen == playerScreen){
-			CmdDeath ();
+
+			networkPlayer.GetComponent<NetworkPlayer> ().Death ();
         }
     }
-
-	[Command]
-	public void CmdDeath () {
-		GameObject td = Instantiate (
-			                  death,
-			                  death.transform.position,
-			                  death.transform.rotation
-		                  ) as GameObject;
-		NetworkServer.Spawn (td);
-	}
 }

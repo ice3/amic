@@ -135,7 +135,9 @@ public class model : NetworkBehaviour {
     public void Death()
     {
 		Debug.Log ("Death");
-        this.started = false;
+		if (isServer) {
+			this.started = false;
+		}
     }
 
     public void Music()
